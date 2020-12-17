@@ -31,7 +31,7 @@ if(isset($_POST['insert'])){
         echo '<div class="alert alert-primary" role="alert"> Message Saved SUCCESSFULLY!!!! </div>';
     }
     else{
-        echo '<div class="alert alert-primary" role="alert"> Error is here: ".$conn->error." </div>';
+        echo '<div class="alert alert-danger" role="alert"> Error is here: ".$conn->error." </div>';
     }
 
 }
