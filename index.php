@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-        Kinobe's Page
-    </title>
-    <link rel="icon" href="dp2.jpg">
-    <link rel="stylesheet" href="style.css"/>
-    
-</head>
+
+<?php include('head.php'); ?>
 
 <body>
+    
+    <?php include('header.php'); ?>
     <div class="container">
         <h1>Welcome to Jordan's Profile</h1>
         <table>
