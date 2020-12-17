@@ -44,9 +44,9 @@ if(isset($_POST['show'])){
     $myquery = $conn->query($sql);
     
     while($result = $myquery->fetch_assoc()){
-        echo "<br>";
-        echo $result['id']." ".$result['name']. " ".$result['email']." ".$result['message'];
-        echo '<table class="table bg-primary"">
+        
+        echo '<footer>';
+        echo '<table class="table bg-warning"">
                 <thead class="thead-dark">
                     <tr>
                     <th scope="col">id</th>
@@ -61,7 +61,12 @@ if(isset($_POST['show'])){
                     echo '<td>'.$result['name'].'</td>';
                     echo '<td>'.$result['email'].'</td>';
                     echo '<td>'.$result['message'].'</td>
-                </tr>';
+                </tr>
+                </tbody>
+            </table>';
+                
+        echo '</footer>';
+        
     }
 
 }
