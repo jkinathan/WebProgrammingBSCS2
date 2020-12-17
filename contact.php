@@ -35,7 +35,7 @@ if(isset($_POST['insert'])){
     }
 
 }
-
+//displaying data code
 if(isset($_POST['show'])){
 
 
